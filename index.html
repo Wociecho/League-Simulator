@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symulator ligi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="allData">
+        <div class="info">
+            <label for="teamNumber">Liczba drużyn:</label>
+            <input type="number" name="teamNumber" min="2" max="30">
+            <label for="degradationTeamNumber">Spadki:</label>
+            <input type="number" name="degradationTeamNumber" min="0" max="5">
+            <button class="confirm" id="initiateButton" type="submit">Potwierdź</button>
+        </div>
+        <div class="leagueData"></div>
+    </div>
+
+    <div class="mainData">
+        <div class="table"></div>
+        <div class="newTeams"></div>
+        <button class="confirm" id="historyBtn">Historia</button>
+        <div class="history"></div>
+    </div>
+    <script src="skrypty.js"></script>
+</body>
+</html>
